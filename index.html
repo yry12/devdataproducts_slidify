@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Development Data Products</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Development Data Products">
+  <meta name="author" content="YRY12 / August 24, 2014">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Development Data Products</h1>
+    <h2>Final Project - Slidify</h2>
+    <p>YRY12 / August 24, 2014<br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Introduction</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>-For the final project, I employed a emission data available from National Emissions Inventory (NEI), 
+&quot;<a href="http://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip">http://d396qusza40orc.cloudfront.net/exdata%2Fdata%2FNEI_data.zip</a>&quot;. The NEI emissions is compiled by the  Environmental Protection Agency (EPA) with the aim to track emission in the atmosphere.</p>
+
+<p>-In this analysis we focus in the visual analsys of emission of four type of vehicles (Non-road, Nonpoint,  On-road, and Point) in four years (1999, 2002, 2005, and 2008).</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Summary data</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>This is summary the information of the data we use.</p>
+
+<pre><code>##    year         type        pm25            logpm25    
+##  1999:4   Non-road:4   Min.   : 107384   Min.   :11.6  
+##  2002:4   Nonpoint:4   1st Qu.: 183838   1st Qu.:12.1  
+##  2005:4   On-road :4   Median : 539188   Median :13.1  
+##  2008:4   Point   :4   Mean   :1367979   Mean   :13.3  
+##                        3rd Qu.:1602537   3rd Qu.:14.2  
+##                        Max.   :5518185   Max.   :15.5
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Example</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The shiny app produces a chart bar for each of the four vehicles. Example:</p>
+
+<p><img src="assets/fig/unnamed-chunk-2.png" alt="plot of chunk unnamed-chunk-2"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Github Repository</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>More details of this shinny app can be found at</p>
+
+<p><a href="https://github.com/yry12/devdataproducts">https://github.com/yry12/devdataproducts</a></p>
+
+<p>Slidify</p>
+
+<p><a href="https://github.com/yry12/devdataproduct_slidify">https://github.com/yry12/devdataproduct_slidify</a></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introduction'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Summary data'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Example'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Github Repository'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
